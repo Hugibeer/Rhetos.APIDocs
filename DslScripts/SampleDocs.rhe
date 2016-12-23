@@ -1,0 +1,35 @@
+﻿APIDocs "Test application"
+{
+	Description "Some test application.";
+	Version "1.0.0";
+	Contact
+	{
+		Name "Miloš Trifunović";
+		Url "http://omega-software.hr";
+		Email "milos.trifunovic@omega-software.hr";
+	}
+	License "MIT" "http://github.com/gruntjs/grunt/blob/master/LICENSE-MIT";
+	TermsOfService "Ovo su masni i slasni uvjeti korištenja aplikacije bla di bladi blaaaa";
+	Schema "http";
+	ExternalDocs "Korisničke upute sa slikaama i ostalo su dostupne na" "http://urlDoKorisnickihUputa.com";
+
+	Tags 
+	{
+		Tag "APIDocs"
+		{
+			Description "Rhetos API docs application platform";
+			ExternalDocs "Find out more" "http://superkuldocs.com";
+		}
+		Tag "OpenAPI"
+		{
+			Description "Standard against it is generated";
+		}
+	}
+
+	Consumes "application/json";
+	Produces "application/json";
+
+// 	Description Pismohrana.TehnickaJedinica "Osnovni entitet Pismohrane. Sadrži podatke arhivske građe.";
+// 	Description Pismohrana.TehnickaJedinica.Naziv "Naziv tehničke jedinice po kojim se jedinica identificira.";
+}
+
